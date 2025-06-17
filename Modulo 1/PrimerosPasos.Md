@@ -26,6 +26,8 @@ Luego procedes a correr el servidor:
 - jupyter lab
 Esto habilitará un servidor web de laboratorios dentro del puerto 8888 de tu localhost : [http://localhost:8888/lab], ábrelo en un  navegardor y podrás observar la interface interactiva.
 
+Para más información la puedes encontrar en la documentación oficial: ![https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html]
+
 # Primeros Pasos
 
 - Variables. Es un espacio de momoria que tiene un nombre, en el podemos almacenar un valor determinado. Este valor puede cambiar en el transcurso del programa. Algo importante a tener en cuenta es que en python solo podemos contar con variables, ya que no existen las constantes.
