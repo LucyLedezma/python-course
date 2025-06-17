@@ -22,8 +22,10 @@ Con es podemos crear diferentes notebooks con los que podremos trabajar de maner
 Jupiter lab es un servidor que corre en un puerto que le indiquemos, inicialmente en nuestras máquinas locales.
 Para realizar la instalación solo debes ejecutar el siguiente comando:
 - pip install jupyterlab
+
 Luego procedes a correr el servidor:
 - jupyter lab
+
 Esto habilitará un servidor web de laboratorios dentro del puerto 8888 de tu localhost : [http://localhost:8888/lab], ábrelo en un  navegardor y podrás observar la interface interactiva.
 
 Para más información la puedes encontrar en la documentación oficial: ![https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html]
