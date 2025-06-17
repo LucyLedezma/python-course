@@ -7,3 +7,5 @@ Finalmente puedes activar el entorno virtual
     - my_environment/Source/activate
 - Linux
     - source my_environment/bin/activate
+
+Para más información la puedes encontrar en la documentación oficial: ![https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html]
