@@ -7,3 +7,6 @@ Finalmente puedes activar el entorno virtual
     - my_environment/Scripts/activate
 - Linux
     - source my_environment/bin/activate
+
+Si tienes problemas cuando ejecutas jupyer lab y no reconoce el environment:
+- python -m ipykernel install --user --name=my_environment --display-name "Python (my_environment)"
