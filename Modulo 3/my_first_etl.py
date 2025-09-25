@@ -26,6 +26,7 @@ def main(db_name: str,  records: List[Tuple]):
         )
     print(formatted__values)
     cursor.execute(f"INSERT INTO users (name, surname, age) VALUES {formatted__values}")
+    conn.commit() ## in order to save in DB
     ## Select all
     cursor.execute("SELECT *  FROM users; ")
     query_results = cursor.fetchall()
@@ -34,6 +35,7 @@ def main(db_name: str,  records: List[Tuple]):
     cursor.execute("SELECT name, surname, age  FROM users ORDER BY age DESC LIMIT 1; ")
     query_results = cursor.fetchall()
     print(f'Oldest user: {query_results}')
+    conn.close()
 
 if __name__ == '__main__':
     users = [('Alice', 'Robert', 30),
