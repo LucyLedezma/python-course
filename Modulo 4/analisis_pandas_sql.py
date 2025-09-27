@@ -7,7 +7,6 @@ def main():
     
     ## this connection could be any other, such as mysql.
     df = pd.read_sql_query("SELECT * FROM users ", conn) 
-    
 
     # Verify that result of SQL query is stored in the dataframe
     print(df)
