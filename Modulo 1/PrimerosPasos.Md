@@ -27,7 +27,7 @@ Luego procedes a correr el servidor:
 - jupyter lab
 - python -m jupyterlab
 - python -m jupyter lab
--jupyter lab
+- jupyter-lab
 
 Esto habilitará un servidor web de laboratorios dentro del puerto 8888 de tu localhost : [http://localhost:8888/lab], ábrelo en un  navegardor y podrás observar la interface interactiva.
 
