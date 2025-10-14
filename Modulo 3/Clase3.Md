@@ -8,5 +8,8 @@ Finalmente puedes activar el entorno virtual
 - Linux
     - source my_environment/bin/activate
 
+
+Para desactivar el entorno virtual:
+-- deactivate
 Si tienes problemas cuando ejecutas jupyer lab y no reconoce el environment:
 - python -m ipykernel install --user --name=my_environment --display-name "Python (my_environment)"
